@@ -1,16 +1,12 @@
 <!Doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title> Contacts </title>
   <style type="text/css">
-    img
-    {
-    width: 100%;
-    max-width: 740 px;
-    height: auto;
-	}
 	.none {
+	padding-bottom: 7px;
+	padding-left: 27px;
 	width: 110px;
 	}
 	.ava {
@@ -36,11 +32,15 @@
 	.rightcol {
 	 margin-left: 49.2%;
 	 padding: 1.8%;
-	 padding-top: 90px;
+	 padding-top: 110px;
 	}
 	p {
 	padding-bottom: 10px;
 	font: 12pt Book Antiqua;
+	}
+	.mail {
+	float: right;
+	font: 13pt Book Antiqua;
 	}
   </style>
  </head>
@@ -52,7 +52,7 @@
    </div>
 </header>
  <div class="leftcol">
- <img class="ava" src="other/ava.png"> 
+	<img class="ava" src="other/ava.png"> 
     <p>Андрей Карасев, инженер-архитектор<br>
        1986 - родился в г. Канаше, Чувашия<br>
        2003 - окончил физико-математический класс, гимназия №2, г. Чебоксары<br>
@@ -64,8 +64,8 @@
        2018 - по настоящее время - ИП, частная практика</p> 
  </div>
 <div class="rightcol">
-  <p align="right"><b>Номер телефона:</b>:&emsp;<img class="none" src="other/image_number.png"></p>
-  <p align="right"><b>E-mailL:</b> karasevandrew@list.ru</p> 
+  <div align="right"><img float="left" src="other/png_phone.png" width="25" height="25" hspace="10"><img class="none" src="other/image_number.png"></div>
+  <div align="right"><img float="left" src="other/png_mail.png" width="25" height="25" hspace="10"><div class="mail">mail@akarasev.ru</div></div>
 </div>
 </body>
 </html>
